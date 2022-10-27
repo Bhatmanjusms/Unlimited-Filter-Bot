@@ -53,7 +53,7 @@ async def cb_handler(client, query):
                     InlineKeyboardButton("BOT Channel", url="https://t.me/Imdb_updates")
                 ],
                 [
-                    InlineKeyboardButton("🔙 Back", callback_data="start"),
+                    InlineKeyboardButton("🔙 Back", callback_data="start_data"),
                 ]
             ]
         )

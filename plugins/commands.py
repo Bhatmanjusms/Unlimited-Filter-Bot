@@ -219,7 +219,7 @@ async def start(client, message):
                 [
                     InlineKeyboardButton("Let's roll", url=f'http://t.me/nohara_filter_bot?startgroup=true')
                     ],[
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("❓ Help ❓", callback_data="help_data")
                 ]
             ]
         ),
@@ -245,12 +245,10 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
                     InlineKeyboardButton("BOT Channel", url="https://t.me/Imdb_updates"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/Imdb_updates")
                 ]
             ]
         ),

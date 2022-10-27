@@ -30,9 +30,9 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Let's roll", url=f'http://t.me/nohara_filter_bot?startgroup=true')
+                    InlineKeyboardButton("𝘓𝘦𝘵’𝘴 𝘳𝘰𝘭𝘭", url=f'http://t.me/nohara_filter_bot?startgroup=true')
                     ],[
-                    InlineKeyboardButton("❓ Help ❓", callback_data="help_data")
+                    InlineKeyboardButton("❓ 𝘏𝘦𝘭𝘱 ❓", callback_data="help_data")
                 ]
             ]
         )
@@ -53,7 +53,7 @@ async def cb_handler(client, query):
                     InlineKeyboardButton("🤖 𝘉𝘰𝘵 𝘤𝘩𝘢𝘯𝘯𝘦𝘭", url="https://t.me/Imdb_updates")
                 ],
                 [
-                    InlineKeyboardButton("🔙 Back", callback_data="start_data"),
+                    InlineKeyboardButton("🔙 𝘉𝘢𝘤𝘬", callback_data="start_data"),
                 ]
             ]
         )
@@ -71,7 +71,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/technicalaks/Unlimited-Filter-Bot")
+                        "𝘚𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦", url="https://github.com/technicalaks/Unlimited-Filter-Bot")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),

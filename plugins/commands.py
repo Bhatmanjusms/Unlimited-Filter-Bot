@@ -264,8 +264,8 @@ async def about(client, message):
                         "𝘚𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦", url="https://github.com/technicalaks/Unlimited-Filter-Bot")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("🔙 𝘉𝘢𝘤𝘬", callback_data="help_data"),
+                    InlineKeyboardButton("❌ 𝘊𝘭𝘰𝘴𝘦", callback_data="close_data"),
                 ]                
             ]
         ),

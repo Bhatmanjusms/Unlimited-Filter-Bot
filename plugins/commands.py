@@ -162,14 +162,14 @@ async def bot_status(client,message):
 
                 quota_details = f"""
 
-**Heroku Account Status**
+**𝘏𝘦𝘳𝘰𝘬𝘶 𝘢𝘤𝘤𝘰𝘶𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴**
 
-> __You have **{total} hours** of free dyno quota available each month.__
+• __𝘠𝘰𝘶 𝘩𝘢𝘷𝘦 **{total} 𝘩𝘰𝘶𝘳𝘴** 𝘰𝘧 𝘧𝘳𝘦𝘦 𝘥𝘺𝘯𝘰 𝘲𝘶𝘰𝘵𝘢 𝘢𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘦𝘢𝘤𝘩 𝘮𝘰𝘯𝘵𝘩.__
 
-> __Dyno hours used this month__ ;
-        - **{used} hours**  ( {usedperc}% )
+• __𝘋𝘺𝘯𝘰 𝘩𝘰𝘶𝘳𝘴 𝘶𝘴𝘦𝘥 𝘵𝘩𝘪𝘴 𝘮𝘰𝘯𝘵𝘩__ ;
+        - **{used} 𝘩𝘰𝘶𝘳𝘴**  ( {usedperc}% )
 
-> __Dyno hours remaining this month__ ;
+• __𝘋𝘺𝘯𝘰 𝘩𝘰𝘶𝘳𝘴 𝘳𝘦𝘮𝘢𝘪𝘯𝘪𝘯𝘨 𝘵𝘩𝘪𝘴 𝘮𝘰𝘯𝘵𝘩__ ;
         - **{hours} hours**  ( {leftperc}% )
         - **Approximately {days} days!**
 
@@ -198,10 +198,10 @@ async def bot_status(client,message):
         disk = ""
 
     await message.reply_text(
-        "**Current status of your bot!**\n\n"
-        f"> __**{filters}** filters across **{chats}** chats__\n\n"
+        "**🗞️ 𝘊𝘶𝘳𝘳𝘦𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴 𝘰𝘧 𝘺𝘰𝘶𝘳 𝘣𝘰𝘵 🗞️**\n\n"
+        f"• __**{filters}** filters across **{chats}** chats__\n\n"
         f"{userstats}"
-        f"> __BOT Uptime__ : **{uptime}**\n\n"
+        f"• __BOT Uptime__ : **{uptime}**\n\n"
         f"{quota_details}"
         f"{disk}",
         quote=True,
@@ -245,8 +245,8 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("About Me", callback_data="about_data"),
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/Imdb_updates")
+                    InlineKeyboardButton("❤️‍🔥 𝘈𝘣𝘰𝘶𝘵 𝘮𝘦", callback_data="about_data"),
+                    InlineKeyboardButton("🤖 𝘉𝘰𝘵 𝘤𝘩𝘢𝘯𝘯𝘦𝘭", url="https://t.me/Imdb_updates")
                 ],
                 [
                     InlineKeyboardButton("🔙 Back", callback_data="start_data"),

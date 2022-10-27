@@ -119,7 +119,7 @@ async def bot_status(client,message):
 
     if Config.SAVE_USER == "yes":
         users = await all_users()
-        userstats = f"> __**{users} users have interacted with your bot!**__\n\n"
+        userstats = f"> __**{users} 𝘶𝘴𝘦𝘳𝘴 𝘩𝘢𝘷𝘦 𝘪𝘯𝘵𝘦𝘳𝘢𝘤𝘵𝘦𝘥 𝘸𝘪𝘵𝘩 𝘺𝘰𝘶𝘳 𝘣𝘰𝘵**__\n\n"
     else:
         userstats = ""
 
@@ -162,7 +162,7 @@ async def bot_status(client,message):
 
                 quota_details = f"""
 
-**𝘏𝘦𝘳𝘰𝘬𝘶 𝘢𝘤𝘤𝘰𝘶𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴**
+**🔮 𝘏𝘦𝘳𝘰𝘬𝘶 𝘢𝘤𝘤𝘰𝘶𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴🔮 **
 
 • __𝘠𝘰𝘶 𝘩𝘢𝘷𝘦 **{total} 𝘩𝘰𝘶𝘳𝘴** 𝘰𝘧 𝘧𝘳𝘦𝘦 𝘥𝘺𝘯𝘰 𝘲𝘶𝘰𝘵𝘢 𝘢𝘷𝘢𝘪𝘭𝘢𝘣𝘭𝘦 𝘦𝘢𝘤𝘩 𝘮𝘰𝘯𝘵𝘩.__
 
@@ -170,9 +170,8 @@ async def bot_status(client,message):
         - **{used} 𝘩𝘰𝘶𝘳𝘴**  ( {usedperc}% )
 
 • __𝘋𝘺𝘯𝘰 𝘩𝘰𝘶𝘳𝘴 𝘳𝘦𝘮𝘢𝘪𝘯𝘪𝘯𝘨 𝘵𝘩𝘪𝘴 𝘮𝘰𝘯𝘵𝘩__ ;
-        - **{hours} hours**  ( {leftperc}% )
-        - **Approximately {days} days!**
-
+        - **{hours} 𝘩𝘰𝘶𝘳𝘴**  ( {leftperc}% )
+        - **𝘈𝘱𝘱𝘳𝘰𝘹𝘪𝘮𝘢𝘵𝘦𝘭𝘺 {days} 𝘥𝘢𝘺𝘴**
 
 """
             else:
@@ -191,17 +190,17 @@ async def bot_status(client,message):
         used = humanbytes(u)
         free = humanbytes(f)
 
-        disk = "\n**Disk Details**\n\n" \
-            f"> USED  :  {used} / {total}\n" \
-            f"> FREE  :  {free}\n\n"
+        disk = "\n**🗃️ 𝘋𝘪𝘴𝘤 𝘥𝘦𝘵𝘢𝘪𝘭𝘴 🗃️**\n\n" \
+            f"> 𝘜𝘚𝘌𝘋  :  {used} / {total}\n" \
+            f"> 𝘍𝘙𝘌𝘌  :  {free}\n\n"
     except:
         disk = ""
 
     await message.reply_text(
         "**🗞️ 𝘊𝘶𝘳𝘳𝘦𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴 𝘰𝘧 𝘺𝘰𝘶𝘳 𝘣𝘰𝘵 🗞️**\n\n"
-        f"• __**{filters}** filters across **{chats}** chats__\n\n"
+        f"• __**{filters}** 𝘧𝘪𝘭𝘵𝘦𝘳𝘴 𝘢𝘤𝘳𝘰𝘴𝘴 **{chats}** 𝘤𝘩𝘢𝘵𝘴__\n\n"
         f"{userstats}"
-        f"• __BOT Uptime__ : **{uptime}**\n\n"
+        f"• __𝘉𝘰𝘵 𝘶𝘱𝘵𝘪𝘮𝘦__ : **{uptime}**\n\n"
         f"{quota_details}"
         f"{disk}",
         quote=True,

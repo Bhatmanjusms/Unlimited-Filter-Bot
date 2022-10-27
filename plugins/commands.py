@@ -159,7 +159,6 @@ async def bot_status(client,message):
 
                 usedperc = math.floor(quota_used / total_quota * 100)
                 leftperc = math.floor(quota_left / total_quota * 100)
-
                 quota_details = f"""
 **🔮 𝘏𝘦𝘳𝘰𝘬𝘶 𝘢𝘤𝘤𝘰𝘶𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴🔮 **
 

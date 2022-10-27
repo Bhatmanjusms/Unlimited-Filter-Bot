@@ -358,7 +358,7 @@ async def give_filter(client,message):
                                 reply_markup=InlineKeyboardMarkup(button)
                             )
                      if msg:
-                         await asyncio.sleep(5*60)
+                         await asyncio.sleep(300)
                          if not msg.empty: await msg.delete()
                 except Exception as e:
                     print(e)

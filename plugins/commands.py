@@ -194,7 +194,6 @@ async def bot_status(client,message):
             f"> 𝘍𝘙𝘌𝘌  :  {free}\n\n"
     except:
         disk = ""
-
     await message.reply_text(
         "**🗞️ 𝘊𝘶𝘳𝘳𝘦𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴 𝘰𝘧 𝘺𝘰𝘶𝘳 𝘣𝘰𝘵 🗞️**\n\n"
         f"• __**{filters}** 𝘧𝘪𝘭𝘵𝘦𝘳𝘴 𝘢𝘤𝘳𝘰𝘴𝘴 **{chats}** 𝘤𝘩𝘢𝘵𝘴__\n\n"
@@ -247,7 +246,7 @@ async def help(client, message):
                     InlineKeyboardButton("🤖 𝘉𝘰𝘵 𝘤𝘩𝘢𝘯𝘯𝘦𝘭", url="https://t.me/Imdb_updates")
                 ],
                 [
-                    InlineKeyboardButton("🔙 Back", callback_data="start_data"),
+                    InlineKeyboardButton("🔙 𝘉𝘢𝘤𝘬", callback_data="start_data"),
                 ]
             ]
         ),
@@ -264,7 +263,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/technicalaks/Unlimited-Filter-Bot")
+                        "𝘚𝘰𝘶𝘳𝘤𝘦 𝘤𝘰𝘥𝘦", url="https://github.com/technicalaks/Unlimited-Filter-Bot")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),

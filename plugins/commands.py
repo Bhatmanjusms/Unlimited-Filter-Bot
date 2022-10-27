@@ -217,6 +217,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
+                    InlineKeyboardButton("Let's roll", url=f'http://t.me/nohara_filter_bot?startgroup=true')
+                    ],[
                     InlineKeyboardButton("Command Help", callback_data="help_data")
                 ]
             ]

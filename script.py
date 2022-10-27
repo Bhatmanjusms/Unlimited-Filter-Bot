@@ -10,13 +10,11 @@ class Script(object):
     HELP_MSG = """
 <i> 𝘈𝘥𝘥 𝘮𝘦 𝘢𝘴 𝘢𝘥𝘮𝘪𝘯 𝘪𝘯 𝘺𝘰𝘶𝘳 𝘨𝘳𝘰𝘶𝘱 𝘢𝘯𝘥 𝘴𝘵𝘢𝘳𝘵 𝘧𝘪𝘭𝘵𝘦𝘳𝘪𝘯𝘨 🤗 </i>
 
-
 <b>🧿 Basic Commands 🧿</b>
 
 /start - 𝘊𝘩𝘦𝘤𝘬 𝘪𝘧 𝘐'𝘮 𝘢𝘭𝘪𝘷𝘦 💀
 /help - 𝘊𝘰𝘮𝘮𝘢𝘯𝘥 𝘩𝘦𝘭𝘱 🛡️
 /about - 𝘚𝘰𝘮𝘦𝘵𝘩𝘪𝘯𝘨 𝘢𝘣𝘰𝘶𝘵 𝘮𝘦 🙂
-
 
 <b>🛠️ Filter Commands 🛠️</b>
 
@@ -27,7 +25,6 @@ class Script(object):
 <code>/delall</code>  -  𝘋𝘦𝘭𝘦𝘵𝘦 𝘦𝘯𝘵𝘪𝘳𝘦 𝘧𝘪𝘭𝘵𝘦𝘳𝘴 (𝘎𝘳𝘰𝘶𝘱 𝘖𝘸𝘯𝘦𝘳 𝘖𝘯𝘭𝘺)
 
 <code>/viewfilters</code>  -  𝘓𝘪𝘴𝘵 𝘢𝘭𝘭 𝘧𝘪𝘭𝘵𝘦𝘳𝘴 𝘪𝘯 𝘤𝘩𝘢𝘵
-
 
 <b>🧬 Connection Commands 🧬</b>
 
@@ -43,8 +40,6 @@ class Script(object):
 
 <code>/info userid</code>  -  𝘚𝘩𝘰𝘸𝘴 𝘜𝘴𝘦𝘳 𝘐𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯. 𝘜𝘴𝘦 <code>/info</code> 𝘢𝘴 𝘳𝘦𝘱𝘭𝘺 𝘵𝘰 𝘴𝘰𝘮𝘦 𝘮𝘦𝘴𝘴𝘢𝘨𝘦 𝘧𝘰𝘳 𝘵𝘩𝘦𝘪𝘳 𝘥𝘦𝘵𝘢𝘪𝘭𝘴
 
-
-<b>© @Imdb_updates </b>
 """
 
 

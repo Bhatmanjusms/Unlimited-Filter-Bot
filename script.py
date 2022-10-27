@@ -11,14 +11,14 @@ class Script(object):
 <i> 𝘈𝘥𝘥 𝘮𝘦 𝘢𝘴 𝘢𝘥𝘮𝘪𝘯 𝘪𝘯 𝘺𝘰𝘶𝘳 𝘨𝘳𝘰𝘶𝘱 𝘢𝘯𝘥 𝘴𝘵𝘢𝘳𝘵 𝘧𝘪𝘭𝘵𝘦𝘳𝘪𝘯𝘨 🤗 </i>
 
 
-<b>Basic Commands;</b>
+<b>🧿 Basic Commands 🧿</b>
 
 /start - 𝘊𝘩𝘦𝘤𝘬 𝘪𝘧 𝘐'𝘮 𝘢𝘭𝘪𝘷𝘦 💀
 /help - 𝘊𝘰𝘮𝘮𝘢𝘯𝘥 𝘩𝘦𝘭𝘱 🛡️
 /about - 𝘚𝘰𝘮𝘦𝘵𝘩𝘪𝘯𝘨 𝘢𝘣𝘰𝘶𝘵 𝘮𝘦 🙂
 
 
-<b>Filter Commands;</b>
+<b>🛠️ Filter Commands 🛠️</b>
 
 <code>/add name reply</code>  -  𝘈𝘥𝘥 𝘧𝘪𝘭𝘵𝘦𝘳 𝘧𝘰𝘳 𝘯𝘢𝘮𝘦
 
@@ -29,14 +29,14 @@ class Script(object):
 <code>/viewfilters</code>  -  𝘓𝘪𝘴𝘵 𝘢𝘭𝘭 𝘧𝘪𝘭𝘵𝘦𝘳𝘴 𝘪𝘯 𝘤𝘩𝘢𝘵
 
 
-<b>Connection Commands;</b>
+<b>🧬 Connection Commands 🧬</b>
 
 <code>/connect groupid</code>  -  𝘊𝘰𝘯𝘯𝘦𝘤𝘵 𝘺𝘰𝘶𝘳 𝘨𝘳𝘰𝘶𝘱 𝘵𝘰 𝘮𝘺 𝘗𝘔. 𝘠𝘰𝘶 𝘤𝘢𝘯 𝘢𝘭𝘴𝘰 𝘴𝘪𝘮𝘱𝘭𝘺 𝘶𝘴𝘦,
 <code>/connect</code> 𝘪𝘯 𝘨𝘳𝘰𝘶𝘱𝘴.
 
 <code>/connections</code>  -  𝘔𝘢𝘯𝘢𝘨𝘦 𝘺𝘰𝘶𝘳 𝘤𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯𝘴.
 
-<b>Extras;</b>
+<b>💊 Extras 💊</b>
 
 /status  -  𝘚𝘩𝘰𝘸𝘴 𝘤𝘶𝘳𝘳𝘦𝘯𝘵 𝘴𝘵𝘢𝘵𝘶𝘴 𝘰𝘧 𝘺𝘰𝘶𝘳 𝘣𝘰𝘵 (𝘈𝘶𝘵𝘩 𝘜𝘴𝘦𝘳 𝘖𝘯𝘭𝘺)
 /id  -  𝘚𝘩𝘰𝘸𝘴 𝘐𝘋 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯
@@ -50,10 +50,10 @@ class Script(object):
 
     ABOUT_MSG = """⭕️<b>My Name : Nohara filter bot</b>
 
-⭕️<b>Creater :</b> @Imdb_updates    
+🏆<b>Creater :</b> @Imdb_updates    
 
-⭕️<b>Language :</b> <code>Python3</code>
+🧩<b>Language :</b> <code>Python3</code>
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+📂<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
 """

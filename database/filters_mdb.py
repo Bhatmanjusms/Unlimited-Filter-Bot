@@ -71,7 +71,7 @@ async def delete_filter(message, text, group_id):
     if query == 1:
         mycol.delete_one(myquery)
         await message.reply_text(
-            f"'`{text}`'  deleted from your filter list",
+            f"'`{text}`'  deleted from **{title}**",
             quote=True,
             parse_mode="md"
         )

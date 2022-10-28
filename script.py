@@ -43,9 +43,9 @@ class Script(object):
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Nohara filter bot</b>
+    ABOUT_MSG = """⭕️<b>My Name : filter bot</b>
 
-🏆<b>Creater :</b> @Imdb_updates    
+🏆<b>Creater :</b> @bhatmanju   
 
 🧩<b>Language :</b> <code>Python3</code>
 

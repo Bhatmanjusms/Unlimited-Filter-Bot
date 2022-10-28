@@ -212,7 +212,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝘓𝘦𝘵’𝘴 𝘳𝘰𝘭𝘭", url=f'http://t.me/?startgroup=true')
+                    InlineKeyboardButton("𝘓𝘦𝘵’𝘴 𝘳𝘰𝘭𝘭", url=f'http://t.me/Thunder_filterbot?startgroup=true')
                     ],[
                     InlineKeyboardButton("❓ 𝘏𝘦𝘭𝘱 ❓", callback_data="help_data")
                 ]
